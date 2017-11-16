@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario Responsivel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style type="text/css">
+  
+  body { 
+  margin: 0 auto; 
+  max-width: 320px;
+  background: #eee;
+  font: 16px sans-serif;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+input, select {
+  display: block;
+  width: 100%;
+  padding: 3px 5px;
+  line-height: 26px;
+  border-radius: 3px;
+  border: 1px solid #bbb;
+  box-sizing: content-box;
+  -webkit-appearance: none;
+}
+</style>
+
+
+<body>
+
+
+  <h1>Formulário HTML</h1>
+
+<form action="#">
+  
+  <label>Texto</label>
+  <input type="text">
+  
+  <label>Tempo</label>
+  <input type="time">
+  
+  <label>Data</label>
+  <input type="date" min="2015-05-15" max="2015-05-25">
+  
+  <label>Datetime</label>
+  <input type="datetime">
+  
+  <label>Datetime-local</label>
+  <input type="datetime-local" min="2014-09-09T12:00:00.00">
+
+  <label>Month</label>
+  <input type="month">
+
+  <label>Week</label>
+  <input type="week">
+
+  <label>Email</label>
+  <input type="email">
+
+  <label>Tel</label>
+  <input type="tel">
+
+  <label>Search</label>
+  <input type="search">
+
+  <label>Number</label>
+  <input type="number" step="any">
+  <input type="number" pattern="[0-9]*" placeholder="Number type with number pattern">
+ 
+
+  <label>URL</label>
+  <input type="url">
+
+  <label>Color</label>
+  <input type="color">
+
+  <label>Dropdown</label>
+  <select>
+    <option>Item 1</option>
+    <option>Item 2</option>
+    <option>Item 3</option>
+    <option>Item 4</option>
+    <option>Item 5</option>
+    <option>Item 6</option>
+  </select>
+
+</form>
+
+</body>
+</html>
